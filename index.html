@@ -1,0 +1,30 @@
+<!-- StAuth10244: I Manh Truong Nguyen, 000893836 certify that this material is my original work. No other person's work has been used without due acknowledgement. I have not made my work available to anyone else. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin></script>
+    <script type="text/babel">
+      main();
+
+      function main() {
+        const container = document.querySelector('#root');
+        const root = ReactDOM.createRoot(container);
+        root.render(<App />);
+      }
+
+      function App() {
+        return <h1>Hello</h1>;
+      }
+    </script>
+  </body>
+</html>
